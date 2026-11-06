@@ -58,3 +58,15 @@ L'application démarre (`Startup`). La requête `GET /` crée `ProductController
 et renvoie 9 produits. La liste remonte jusqu'à `Index()`, qui appelle `View(products)`.
 Pendant l'affichage de la vue, le composant `CartSummaryViewComponent` est créé (résumé du
 panier en haut de la page), puis la page d'accueil avec les 9 produits s'affiche.
+
+## Question 9 : Exécutable Windows
+Commande utilisée :
+
+    dotnet publish -c Release -r win-x64 -o C:\Users\HP\Desktop\Diayma-Publish
+
+Pour lancer l'application : dézipper le dossier, ouvrir un `cmd` dans le dossier
+et taper `Diayma.exe`, puis ouvrir http://localhost:5000 dans le navigateur.
+Le dossier complet est nécessaire (le .exe seul ne suffit pas).
+
+## Question 10 : Lien de l'exécutable
+https://drive.google.com/file/d/1G5PkMLXaUFjcpjxhRLpW_DzU6YMKcKtl/view?usp=sharing
